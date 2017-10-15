@@ -6,7 +6,7 @@ if (count($_FILES['upload']['name']) > 0) {
     for ($i = 0; $i < count($_FILES['upload']['name']); $i++) {
 
         $extensions = ['jpg', 'jpeg', 'png', 'gif'];
-        //Renvoie une chaîne en minuscules
+        //Retourne des informations sur un chemin système
         $extension = pathinfo($_FILES['upload']['name'][$i], PATHINFO_EXTENSION);
         // vérification des extensions
         if (!in_array($extension, $extensions)) {
