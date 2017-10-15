@@ -1,0 +1,33 @@
+body {
+    padding-top: 20px;
+}
+
+.container {
+    padding-bottom: 20px;
+}
+
+form {
+    margin: auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+.first_part {
+    margin-bottom: 15px;
+}
+
+.caption, p {
+    text-align: center;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+}
